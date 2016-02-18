@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="cellStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/tape_cell</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="invisibleCell">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/arrow_cell</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="editTextStyle">
+    <item name="android:background">@drawable/tape_cell</item>
+    <item name="android:inputType">number</item>
+    </style>
+
+
+</resources>

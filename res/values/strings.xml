@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">TuringMachine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TMActivity</string>
+    <string name="title_activity_alg_process">UnaryActivity</string>
+    <string name="unary_radio">Unary Addition</string>
+    <string name="palindrome_radio">Palindrome</string>
+    <string name="title_activity_palindrome_alg">PalinAlgActivity</string>
+    <string name="set_button">Set</string>
+    <string name="step_button">Step</string>
+    <string name="AnBn_radio">A<sup>n</sup>B<sup>n</sup></string>
+    <string name="title_activity_an_bn">AnBnActivity</string>
+
+</resources>

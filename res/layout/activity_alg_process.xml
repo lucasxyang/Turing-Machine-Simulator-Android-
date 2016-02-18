@@ -1,0 +1,88 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+   <TableRow  android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/arrow1" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow2" style="@style/invisibleCell" android:hint=""></TextView>
+                    <TextView android:id="@+id/arrow3" style="@style/invisibleCell" android:hint=""></TextView>
+                    <TextView android:id="@+id/arrow4" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow5" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow6" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow7" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow8" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow9" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow10" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow11" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow12" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow13" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow14" style="@style/invisibleCell" android:hint="" ></TextView>
+                    <TextView android:id="@+id/arrow15" style="@style/invisibleCell" android:hint="" ></TextView>
+   </TableRow>
+
+  <TableRow  android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@+id/cell1" style="@style/invisibleCell" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell2" style="@style/cellStyle" android:hint=""></EditText>
+                    <EditText android:id="@+id/cell3" style="@style/cellStyle" android:hint=""></EditText>
+                    <EditText android:id="@+id/cell4" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell5" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell6" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell7" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell8" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell9" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell10" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell11" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell12" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell13" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell14" style="@style/cellStyle" android:hint="" ></EditText>
+                    <EditText android:id="@+id/cell15" style="@style/invisibleCell" android:hint="" ></EditText>
+   </TableRow>
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="36dp"
+            android:text="@string/set_button" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button2"
+            android:text="@string/step_button" />
+
+        <EditText
+            android:id="@+id/textView1"
+            style="@style/editTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="18dp"
+            android:ems="10" 
+            android:hint=""/>
+
+        <EditText
+            android:id="@+id/EditText01"
+            style="@style/editTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignLeft="@+id/textView1"
+            android:ems="10" 
+            android:hint=""/>
+    </RelativeLayout>
+
+</LinearLayout>
