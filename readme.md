@@ -1,3 +1,6 @@
+Please visit goo.gl/zGmqGH for a short demo
+===========================================
+
 
 This is my work done at Ball State University, for my Independent Study. This component (Turing Machine) is one of five pieces in the big project. Other components are merge sort, insertion sort, Dijkstra shortest path, and another Turing machine. 
 Usually, due to academic rule and university policy, work of this kind is property of the university. Nonetheless, this piece was not finished at that time and hence not approved for the project. So I could almost say this is intellectual property of mine. But I’ll keep this for educational purpose and fair uses only. 
