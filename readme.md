@@ -1,4 +1,4 @@
-Please go [here] (goo.gl/zGmqGH) for a short demo
+Please go [here] (http://www.goo.gl/zGmqGH) for a short demo
 ============================================
 
 
