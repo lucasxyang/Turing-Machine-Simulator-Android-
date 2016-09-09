@@ -1,5 +1,5 @@
-Please visit goo.gl/zGmqGH for a short demo
-===========================================
+Please go [here] (goo.gl/zGmqGH) for a short demo
+============================================
 
 
 This is my work done at Ball State University, for my Independent Study. This component (Turing Machine) is one of five pieces in the big project. Other components are merge sort, insertion sort, Dijkstra shortest path, and another Turing machine. 
